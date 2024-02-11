@@ -1,0 +1,13 @@
+In implementarea temei m-am folosit de functiile ajutatoare implementate in
+laboratorul 9. Am folosit fgets pentru citrea comenzilor de la tastatura, iar
+pentru compunerea requesturilor am folosit functiile compute_get_request, 
+compute_post_request implementate in laborator, precum si
+compute_delete_request implementata de mine in mod similar cu cele din 
+laborator. Am folosit headerul parson pentru parsarea jsoanelor si am cautat
+pe internet modul de folosire al acestui, precum si exemple de implementare
+pentru a functiile traverse si extract_token. In functie de tipul
+comenzii am retinut cookieul intors de server la comanda login, precum si
+token-ul la comanda enter_library pentru a verifica permisiunile pentru
+restul comenzilor. M-am folosit si de strtok pentru a verifica codul intors
+de server astfel incat sa stiu daca comanda s-a executat cu succes sau nu.
+
