@@ -1,4 +1,4 @@
-# A simple HTTP client implemented in C
+A simple HTTP client implemented in C
 The client uses HTTP requests in order to get an accout or login into his accout for an online library. Once logged in, he can request access to the library, this granting him access to add or remove books from his account,
 as well as get more information on a specific book.
 
